@@ -475,7 +475,7 @@ h2 {
     padding: 50px 0px 20px;
 }
 #graphics img {
-    width: 80%;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
 }
@@ -625,6 +625,9 @@ display: inline-block;
 #sponzori .small img{
 width: 80px;
 }
+#sponzori .large img{
+    width: 240px;
+    }
 #sponzori {
     padding-top: 60px;
 }
