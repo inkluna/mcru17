@@ -1040,6 +1040,7 @@ margin: 0 auto;
 
 }
 .coach {
+    padding-top: 25px;
     overflow: hidden;
     width: 100%;
 }
