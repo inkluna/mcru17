@@ -650,6 +650,10 @@ padding: 40px 0px 0px;
 width: 100px;
 margin: 0px auto;
 }
+.nogame ul {
+    list-style: none;
+    text-align: center;
+}
 .game ul {
     list-style: none;
     text-align: center;
