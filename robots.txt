@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.zdravejmazlik.cz/sitemap.xml
+Sitemap: http://www.mcru17.cz/sitemap.xml
