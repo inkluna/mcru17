@@ -632,6 +632,9 @@ width: 80px;
     margin: 20px 0px 0px;
     overflow: hidden;
 }
+.team:hover {
+    background: #260E1D !important;
+}
 .logoholder {
     height: 182px;
 }
@@ -653,6 +656,9 @@ margin: 0px auto;
 .game ul {
     list-style: none;
     text-align: center;
+}
+.game:hover .hlavicka {
+    background: #260E1D !important;
 }
 .w40 {
     width: 40%;
@@ -716,7 +722,7 @@ margin: 0px auto;
 
 }
 .orange {
-    background: #E9580D;
+    color: #E9580D !important;
 }
 .white {
  background: white;
@@ -797,9 +803,9 @@ background-size: cover;
 .green {
     color: #77C428 !important;
 }
-.orange {
+/*.orange {
     color: #292D6B !important;
-}
+}*/
 h3,.h3 {
 
 
@@ -1010,6 +1016,23 @@ margin: 0 auto;
     padding-top: 30px !important;
     color: #791a04;
 }
+.header,.row{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+.header ul li,.row ul li  {
+    display: inline-block;
+    width:15%;
+
+}
+
+.row ul:nth-child(odd){
+    background: #260E1D !important;
+
+
+}
+
 .profile a{
 display: block;
 color: #ffc24b;
