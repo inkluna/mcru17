@@ -1081,15 +1081,31 @@ width: 100%;
     position: relative;
     float: right;
 }
+.player .captain {
+position: absolute;
+    left: 0px;
+    top:30px;
+    background: #260E1D !important;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 14px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+}
 .player .number {
     position: absolute;
     left: 0px;
     top:0px;
     background: #E9580D !important;
-    padding: 10px;
+
     display: inline-block;
     font-size: 15px;
+    line-height: 28px;
     font-weight: bold;
+    width: 30px;
+    height: 30px;
 }
 
 .profile a{
