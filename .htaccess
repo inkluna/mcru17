@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-DirectoryIndex index.html
   # enforce no .php/.html extension in URL
    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^?]*)\.(php|html)(\?.*)?\ HTTP/
    RewriteRule .? /%1 [R,L,QSA]
