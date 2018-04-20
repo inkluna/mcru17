@@ -3018,6 +3018,18 @@ xs
 
 @media(max-width:767px) {
 
+
+
+#sponzori .large img {
+    width: 200px;
+
+}
+#graphics img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .tymlogo img{
     position: relative !important;
 }
