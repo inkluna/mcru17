@@ -755,7 +755,7 @@ margin: 0px auto;
 ul {
     list-style: none;
 }
-#uvod,#onas > div,#kontakt {
+#uvod,#onas > div,#kontakt,#aktuality {
 
 /*    background: -moz-linear-gradient(top, rgba(234,234,234,0.65) 0%, rgba(255,255,255,0) 100%);
 background: -webkit-linear-gradient(top, rgba(234,234,234,0.65) 0%,rgba(255,255,255,0) 100%);
