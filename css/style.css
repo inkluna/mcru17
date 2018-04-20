@@ -190,6 +190,9 @@ height: 25px;
 .aligncenter {
     text-align: center;
 }
+.gocenter {
+    margin: 0px auto !important;
+}
 
 .center {
     text-align: center;
@@ -631,10 +634,16 @@ width: 80px;
 #sponzori {
     padding-top: 60px;
 }
+#rozhodci {
+    display: block;
+    position: relative;
+    top: 30px;
+}
 .team {
     margin: 20px 0px 0px;
     overflow: hidden;
 }
+
 .team:hover {
     background: #260E1D !important;
 }
@@ -746,6 +755,10 @@ margin: 0px auto;
 .ptop10 {
     padding-top: 10px !important;
 }
+.mt10 {
+margin-top:20px !important;
+}
+.w50 {width: 50%;}
 .ptop30 {
     padding-top: 70px;
 }
