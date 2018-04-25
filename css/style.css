@@ -154,6 +154,10 @@ background: #fff;
 .p100top {
  padding-top: 100px;
 }
+.h50 {
+    height: 60px;
+    width: auto;
+}
 span.help-inline, span.help-block {
     color: #fff !important;
 }
@@ -189,6 +193,12 @@ height: 25px;
 }
 .aligncenter {
     text-align: center;
+}
+.alignleft {
+    text-align: left;
+}
+.alignright {
+    text-align: right;
 }
 .gocenter {
     margin: 0px auto !important;
@@ -656,7 +666,20 @@ width: 80px;
     vertical-align: middle;
     text-align: center;
 
-    margin: 35px auto;
+    margin: 5px 5px;
+}
+#vysledky .logoholder {
+    height: auto;
+}
+#vysledky .logoholder img {
+    margin: 0px 5px 5px 0px !important;
+    max-width: none !important;
+    width: 90%;
+}
+#vysledky h2 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px !important;
 }
 .nogame {
     overflow: hidden;
@@ -769,7 +792,7 @@ margin-top:20px !important;
 ul {
     list-style: none;
 }
-#uvod,#onas > div,#kontakt,#aktuality {
+#uvod,#onas > div,#kontakt,#aktuality,#vysledky {
 
 /*    background: -moz-linear-gradient(top, rgba(234,234,234,0.65) 0%, rgba(255,255,255,0) 100%);
 background: -webkit-linear-gradient(top, rgba(234,234,234,0.65) 0%,rgba(255,255,255,0) 100%);
