@@ -616,7 +616,8 @@ padding: 15px 0px;
     line-height: 30px;
 }
 
-.sponzori li{
+
+.nadace li,.sponzori li{
 display: inline-block;
 
 }
