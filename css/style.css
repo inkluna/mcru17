@@ -305,6 +305,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#260e1d', end
     font-size: 11px;
 
 }
+.f15 {
+    font-size: 15px;
+}
+.f14 {
+    font-size: 14px;
+}
 .f20 {
     font-size: 20px;
 }
@@ -666,17 +672,17 @@ width: 80px;
     vertical-align: middle;
     text-align: center;
 
-    margin: 5px 5px;
+    margin: 30px auto;
 }
-#vysledky .logoholder {
+#vysledky_main .logoholder,#vysledky .logoholder {
     height: auto;
 }
-#vysledky .logoholder img {
+#vysledky .logoholder img,#vysledky_main .logoholder img {
     margin: 0px 5px 5px 0px !important;
     max-width: none !important;
     width: 90%;
 }
-#vysledky h2 {
+#vysledky h2,#vysledky_main h2{
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 15px !important;
@@ -718,10 +724,13 @@ margin: 0px auto;
     color: #E9580D;
     background: #260D19;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     padding: 4px 10px;
     font-size: 13px;
     letter-spacing: 1px;
+    width: 120px;
+    overflow: hidden;
+    margin:0 auto;
 
 }
 
@@ -768,7 +777,7 @@ margin: 0px auto;
  background: white;
 }
 .textwhite {
-    color: #fff;
+    color: #fff !important;
 }
 .upper {
     text-transform: uppercase;
@@ -1958,7 +1967,7 @@ background-color: #260D19;
     bottom: 80px !important;
 }
 p {
-padding:0px 0px 25px;
+padding:0px 0px 10px;
 }
 
 .item {
