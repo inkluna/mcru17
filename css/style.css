@@ -30,6 +30,7 @@ color: #E9580D !important;
 }
 
 
+
 i.fa-check.fa.text-info {
     color :#791a04 !important;
 }
@@ -682,10 +683,18 @@ width: 80px;
     max-width: none !important;
     width: 90%;
 }
-#vysledky h2,#vysledky_main h2{
+#vysledky h2{
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 15px !important;
+}
+
+#vysledkymain h2 {
+font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px !important;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .nogame {
     overflow: hidden;
@@ -769,10 +778,11 @@ margin: 0px auto;
     background: #fff;
 
 }
-.purple{
-    background: rgba(45,28,59,.8);
+#layout .post-body, .purple{
+    background: rgba(45,28,59,.8) !important;
 
 }
+
 .orange {
     color: #E9580D !important;
 }
