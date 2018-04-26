@@ -778,9 +778,12 @@ margin: 0px auto;
     background: #fff;
 
 }
-#layout .post-body, .purple{
-    background: rgba(45,28,59,.8) !important;
+ .purple{
+    background: rgba(45,28,59,.8);
 
+}
+#disqus_thread #post-list,#disqus_thread #conversation {
+    background: red !important;
 }
 
 .orange {
