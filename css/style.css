@@ -733,6 +733,9 @@ margin: 0px auto;
     margin:0 auto;
 
 }
+#harmonogram .start {
+    width: 300px;
+}
 
 .circle {
     width: 50px;
@@ -801,7 +804,7 @@ margin-top:20px !important;
 ul {
     list-style: none;
 }
-#uvod,#onas > div,#kontakt,#aktuality,#vysledky {
+#uvod,#onas > div,#kontakt,#aktuality,#vysledky,#harmonogram {
 
 /*    background: -moz-linear-gradient(top, rgba(234,234,234,0.65) 0%, rgba(255,255,255,0) 100%);
 background: -webkit-linear-gradient(top, rgba(234,234,234,0.65) 0%,rgba(255,255,255,0) 100%);
