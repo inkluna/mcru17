@@ -685,7 +685,7 @@ width: 80px;
 }
 #vysledky h2{
     font-size: 18px;
-    line-height: 20px;
+    line-height: 24px;
     margin-bottom: 15px !important;
 }
 
@@ -959,7 +959,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 .tos-desktop .tos-wrapper.tos-fixed {
-    background: rgba(255,255,255,.8);
+    background: rgba(38,14,29,.9);
 }
 .tos-wrapper .tos-caption {
     box-shadow: none;
@@ -1791,7 +1791,7 @@ vertical-align: middle !important;
 
 }
 .tos-close, .tos-next, .tos-prev {
-    background: #292D6B;
+    background: #E9580D !important;
 }
 .specials {
  position: absolute;
@@ -2026,6 +2026,13 @@ height: auto
     border: 0px;
    /* background: url("../img/aqua_vlnka.svg") no-repeat bottom;*/
 /* vlnka_wide_white_downcut.svg */
+
+}
+.galerie .item img{
+    width:100%;
+    height: auto;
+    padding: 5px !important;
+    background: none;
 
 }
 .garniz1 {

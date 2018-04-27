@@ -43,10 +43,10 @@ $(document).ready(function () {
 
 
 
-$("#xmpl1 a").tosrus();
+$(".galerie a").tosrus();
 
 
-$("#galerie .thumbnail").tosrus({
+$(".galerie .thumbnail").tosrus({
    slides     : {
       scale      : "fit"
    },
@@ -60,6 +60,26 @@ $("#galerie .thumbnail").tosrus({
    infinite: true,
    buttons    : true
 });
+
+
+
+// $('.owl-carousel').owlCarousel({
+//     loop:false,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// })
+
 
 
               $(".navbar-toggle").on("click", function () {
