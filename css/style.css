@@ -996,8 +996,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     background-color: none;
 }
 .galerie {
-    padding-bottom: 20px !important;
-    margin-bottom: 20px !important;
+
+    margin-bottom: 10px !important;
+    overflow: hidden;
 }
 .content-section ul {
 
