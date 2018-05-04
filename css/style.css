@@ -23,10 +23,13 @@ body.bg3 {
 }
 
 a {
-    color: #fff !important;
+    color: #E9580D  !important;
 }
 a:hover {
 color: #E9580D !important;
+}
+.nav a {
+color: #fff !important;
 }
 
 
