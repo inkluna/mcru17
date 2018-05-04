@@ -984,11 +984,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     font-weight: 400;
 }
 
-#galerie img{
-    margin: 0px;
+.galerie .thumbnail{
+    padding: 5px !important;
     padding: 0px;
         width: 100%;
     height: auto;
+    background-color: none !important;
+    background: none !important
+}
+.galerie a {
+    background-color: none;
+}
+.galerie {
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
 }
 .content-section ul {
 
